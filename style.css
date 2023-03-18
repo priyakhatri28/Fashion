@@ -1,0 +1,420 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    padding:1rem;
+    border-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: rgb(236, 84, 84);
+    width: 82rem;
+}
+.logo img{
+    width:7rem;
+    padding:0;
+    margin:0;
+    border-radius: 40%;
+}
+.navbar a{
+    font-size: 1rem;
+    padding-right:1rem;
+    text-decoration: none;
+    color:black;
+    font-size:1.5rem;
+}
+.navbar a:hover{
+    cursor:pointer;
+    color:rgb(236, 232, 232);
+   text-decoration: underline;
+}
+.navbar .menu .button{
+    background-color: rgb(130, 178, 237);
+    border-radius:1rem;
+    width:5rem;
+    height:2.5rem;
+    border:none;
+    font-size:1.2rem;
+} 
+.navbar .menu button:hover{
+    cursor: pointer;
+    background-color:yellow;
+    color:rgb(4, 4, 4);
+}
+.content1{
+    padding:3rem;
+    margin:6rem;
+    width:60rem;
+    height:10rem;
+    background-color: rgb(173, 109, 77);
+    border-radius: 2rem;
+}
+.content1 h1{
+    font-size: 4rem;
+    color:white;
+}
+.content1 p{
+    font-size: 2rem;
+}
+.content1 h2{
+    font-size: 1.8rem;
+    cursor:pointer;
+    color:white;
+}
+.content1:hover{
+    background-color:rgb(185, 76, 85);
+}
+.content h2:hover{
+    color:white;
+}
+.parent{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+    grid-template-rows: repeat(2, 300px);
+    padding: 10px;
+    gap:2rem;
+}
+.parent > .child1> p{
+    margin:0.2rem;
+} 
+.parent .child1 .dot1{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(13, 9, 222);
+        margin:0.2rem;
+}
+.parent .child1 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+    
+}
+.parent > .child2> p{
+    margin:0.2rem;
+} 
+.parent .child2 .dot2{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: yellow;
+        margin:0.2rem;
+}
+.parent .child2 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child3> p{
+    margin:0.2rem;
+} 
+.parent .child3 .dot3{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: red;
+        margin:0.2rem;
+}
+.parent .child3 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child4> p{
+    margin:0.2rem;
+} 
+.parent .child4 .dot4{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: black;
+        margin:0.2rem;
+}
+.parent .child4 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child5> p{
+    margin:0.2rem;
+} 
+.parent .child5 .dot5{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(7, 94, 216);
+        margin:0.2rem;
+}
+.parent .child5 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child6> p{
+    margin:0.2rem;
+} 
+.parent .child6 .dot6{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(12, 236, 23);
+        margin:0.2rem;
+}
+.parent .child6 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child7> p{
+    margin:0.2rem;
+} 
+.parent .child7 .dot7{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(186, 237, 17);
+        margin:0.2rem;
+}
+.parent .child7 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent > .child8> p{
+    margin:0.2rem;
+} 
+.parent .child8 .dot8{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: grey;
+        margin:0.2rem;
+}
+.parent .child8 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+
+.parent1{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+    grid-template-rows: repeat(2, 300px);
+    padding: 10px;
+    gap:2rem;
+}
+.parent1 > .child1> p{
+    margin:0.2rem;
+} 
+.parent1 .child1 .dot1{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(155, 234, 85);
+        margin:0.2rem;
+}
+.parent1 .child1 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+    
+}
+.parent1 > .child2> p{
+    margin:0.2rem;
+} 
+.parent1 .child2 .dot2{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(104, 102, 102);
+        margin:0.2rem;
+}
+.parent1 .child2 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child3> p{
+    margin:0.2rem;
+} 
+.parent1 .child3 .dot3{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(41, 161, 235);
+        margin:0.2rem;
+}
+.parent1 .child3 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child4> p{
+    margin:0.2rem;
+} 
+.parent1 .child4 .dot4{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: yellow;
+        margin:0.2rem;
+}
+.parent1 .child4 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child5> p{
+    margin:0.2rem;
+} 
+.parent1 .child5 .dot5{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(236, 13, 154);
+        margin:0.2rem;
+}
+.parent1 .child5 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child6> p{
+    margin:0.2rem;
+} 
+.parent1 .child6 .dot6{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(133, 197, 245);
+        margin:0.2rem;
+}
+.parent1 .child6 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child7> p{
+    margin:0.2rem;
+} 
+.paren1 .child7 .dot7{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(226, 8, 242);
+        margin:0.2rem;
+}
+.parent1 .child7 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.parent1 > .child8> p{
+    margin:0.2rem;
+} 
+.parent1 .child8 .dot8{
+        border-radius: 50%;
+        width:0.4rem;
+        height:0.4rem;
+        background-color: rgb(23, 94, 3);
+        margin:0.2rem;
+}
+.parent1 .child8 img{
+    width:17.5rem;
+    height:14rem;
+    margin:0.5rem;
+}
+.footer{
+    width: 84rem;
+    height:15rem;
+    
+}
+.fparent{
+    display: grid;
+    grid-template-columns:repeat(4,310px);
+    grid-template-rows:repeat(1,210px);
+    padding:0.2rem;
+    gap:1.2rem;
+    background-color:rgb(241, 137, 139);
+    height:15rem;
+}
+.fparent:hover{
+    background-color:rgb(189, 124, 235);
+}
+.footer .fparent .fchild1{
+    padding:1rem;
+    color:white;
+    margin:1rem;
+    font-size:1.5rem;
+    
+}
+.footer :hover{
+    color:black;
+    cursor:pointer;
+}
+.fparent .fchild2{
+    padding:1rem;
+    color:white;
+    margin:1rem;
+    font-size:1.5rem;
+}
+.footer .fparent .fchild2:hover{
+    cursor:pointer;
+}
+.fparent .fchild3{
+    padding:1rem;
+    color:white;
+    margin:1rem;
+    font-size:1.5rem;
+}
+.footer .fparent .fchild3:hover{
+    cursor:pointer;
+}
+.fparent .fchild4{
+    padding:1rem;
+    color:white;
+    margin:1rem;
+    font-size:1.5rem;
+}
+.footer .fparent .fchild4:hover{
+    cursor:pointer;
+}
+.content2{
+    padding:3rem;
+    margin:8.6rem;
+    width:60rem;
+    height:10rem;
+   
+    border-radius: 2rem;
+    display:flex;
+    gap:8rem;
+    border:5px solid rgb(205, 212, 108);
+}
+.content2 .c1{
+    width:10rem;
+    height:10rem;
+
+}
+.content2 .c1 .img{
+    width:15rem;
+    height:12rem;
+}
+.content2 .c2{
+    width:38rem;
+    height:10.5rem;
+    border-radius: 2rem;
+
+}.content2 .c2 p{
+    font-size:2rem;
+}
+.content2:hover{
+    background-color:rgb(199, 251, 234);
+    cursor:pointer;
+}
+.content2 .img:hover{
+    border-radius: 2rem;
+}
+.content2 .c2 :hover{
+    color:red;
+}
